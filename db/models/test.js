@@ -15,4 +15,5 @@ const Test = db.define('test', {
 
 Test.belongsTo(Student, { as: 'student' });
 
+Test.belongsTo(Student)
 module.exports = Test;
